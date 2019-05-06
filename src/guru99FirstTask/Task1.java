@@ -18,6 +18,7 @@ public class Task1 {
 		// Home page title
 		String Title =driver.getTitle();
 		System.out.println("The Title of page is:"+ Title);
+		System.out.println("Megha");
 		
 		//Demo Site Title
 		WebElement Symbol =driver.findElement(By.xpath("//div[@class='page-title']"));
