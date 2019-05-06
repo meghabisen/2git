@@ -20,12 +20,13 @@ public class Task1 {
 		System.out.println("The Title of page is:"+ Title);
 		System.out.println("Megha");
 		
+		
 		//Demo Site Title
 		WebElement Symbol =driver.findElement(By.xpath("//div[@class='page-title']"));
 		//WebElement Symbol =driver.findElement(By.linkText("This is demo site for   "));
 		String T=Symbol.getText();
 		System.out.println("Title1 is:"+T);
-		
+		System.out.println("Megha1212");
 		//Click On Mobile
 		driver.findElement(By.xpath("//a[@class='level0 '][.='Mobile']")).click();
 		
